@@ -28,7 +28,6 @@ function BarraNavegacion () {
 
 	function manejarLinkActivo (nuevoLinkActivo) {
 		setLinkActivo(nuevoLinkActivo)
-		console.log(linkActivo)
 	}
 
 	return (
