@@ -13,7 +13,7 @@ function Banner() {
 	const [delta, setDelta] = useState(300 - Math.random() * 100)
 	const [indice, setIndice] = useState(1)
 
-	const variantes = ["Desarrollador", "Profesor", "Tlapanco"]
+	const variantes = ["Programador", "Profesor", "Tlapanco"]
 	const periodo = 2000
 
 	useEffect(() => {
